@@ -9,51 +9,37 @@
     <body>
         <header>
             <nav class="header-navigation">
-                <button class="burger"><img src="src/svg/burger.svg" alt="кнопка открытия меню"></button>
+                <button class="burger circle"></button>
                 <img class="logo" src="src/svg/cps-logo.svg" alt="логотип компании cps">
                 <ul class="header-interaction-buttons">
-                    <li class="button-call"><button><img src="src/svg/call.svg" alt="кнопка для связи с компаннией"></button></li>
-                    <li class="button-chat"><button><img src="src/svg/chat.svg" alt="кнопка для открытия чата со специалистом"></button></li>
-                    <li class="button-profile"><button><img src="src/svg/profile.svg" alt="кнопка для перехода в личный кабинет"></button></li>
+                    <li><button class="button-call circle"></button></li>
+                    <li><button class="button-chat circle"></button></li>
+                    <li><button class="button-profile circle"></button></li>
                     <li class="divider"></li>
-                    <li>
-                        <button class="button-repair">
-                            <span class="repair-span">Оставить заявку</span>
-                            <img src="src/svg/repair.svg" alt="кнопка информации о ремонте">
-                        </button>
-                    </li>
-                    <li>
-                        <button class="button-checkstatus">
-                            <span class="checkstatus-span">Статус Ремонта</span>
-                            <img src="src/svg/checkstatus.svg" alt="кнопка проверки статуса заказа">
-                        </button>
-                    </li>
+                    <li><button class="button-repair circle"></button></li>
+                    <li><button class="button-checkstatus circle"></button></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="second-header">
+            <header class="second-header">
                 <h1 class="heading">Услуги и сервисы</h1>
                 <div class="header-wrapper">
-                    <button class="second-button-repair">
-                        <span class="repair-span">Оставить заявку</span>
-                        <img src="src/svg/repair.svg" alt="кнопка информации о ремонте">
-                    </button>
-                    <button class="second-button-checkstatus">
-                        <span class="checkstatus-span">Статус Ремонта</span>
-                        <img src="src/svg/checkstatus.svg" alt="кнопка проверки статуса заказа">
-                    </button>
+                    <span class="repair-span">Оставить заявку</span>
+                    <button class="button-repair circle"></button>
+                    <span class="checkstatus-span">Статус Ремонта</span>
+                    <button class="button-checkstatus circle"></button>
                 </div>
-            </section>
-            <section class="scrollbar">
+            </header>
+            <nav class="scrollbar">
                 <ul class="scrollbar-elements">
-                    <li class="scrollbar-element active">Ремонтируемые бренды</li>
-                    <li>Дополнительные услуги</li>
-                    <li>Цены на услуги</li>
-                    <li>Адреса сервисных центров</li>
-                    <li>Специальные цены</li>
+                    <li class="scrollbar-element active"><a href="#">Ремонтируемые бренды</a></li>
+                    <li><a href="#">Дополнительные услуги</a></li>
+                    <li><a href="#">Цены на услуги</a></li>
+                    <li><a href="#">Адреса сервисных центров</a></li>
+                    <li><a href="#">Специальные цены</a></li>
                 </ul>
-            </section>
+            </nav>
             <section class="content">
                 <article class="text-post">
                     <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
@@ -63,7 +49,7 @@
                         Читать далее
                     </label>
                 </article>
-                <img class="adress-image" src="src/png/cps-adress.png" alt="адрес и время работы компании">
+                <img class="adress-image" src="src/jpg/cps-adress.jpg" alt="адрес и время работы компании">
             </section>
         </main>
         <footer>

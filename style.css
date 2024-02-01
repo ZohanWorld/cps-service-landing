@@ -20,10 +20,26 @@ button {
     background: transparent;
 }
 
+a {
+    color: #7E7E82;
+    text-decoration: none;
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #FF3E79;
+}
+
 .header-navigation{
     padding: 18px;
     align-content: center;
     border-bottom: 1px solid #D9FFF5;
+}
+
+.header-navigation li{
+    margin-left: 16px;
 }
 
 .header-interaction-buttons{
@@ -34,10 +50,56 @@ button {
 .divider{
     width: 2px;
     height: 32px;
-    flex-shrink: 0;
     border-radius: 1px;
     background: #EAEAEA;
     margin: 0 20px;
+}
+
+.button-checkstatus{
+    background-image: url(src/svg/checkstatus.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button-repair{
+    background-image: url(src/svg/repair.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button-profile{
+    background-image: url(src/svg/profile.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button-chat{
+    background-image: url(src/svg/chat.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.button-call{
+    background-image: url(src/svg/call.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.burger{
+    background-image: url(src/svg/burger.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 16px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.header-wrapper button{
+    margin-left: 16px;
+}
+
+.header-wrapper span{
+    margin-left: 16px;
 }
 
 .heading{
@@ -63,7 +125,7 @@ button {
 }
 
 .logo{
-    margin: 0 16px;
+    margin-right: 16px;
 }
 
 .scrollbar{
